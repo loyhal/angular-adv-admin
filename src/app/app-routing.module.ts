@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component';
-import { PagesRoutingModule } from './pages/pages/pages.routing';
 import { AuthRoutingModule } from './auth/auth.routing';
+import { PagesRoutingModule } from './pages/pages.routing';
 
  const routes: Routes = [
  
